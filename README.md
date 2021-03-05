@@ -1,146 +1,95 @@
-<div align="center">
-    <h1>
-        Simple-IT-Markdown-Resume
-    </h1>
-    <p align="center"> 一款适合 IT 行业的 Markdown 简历模版，拒绝花里胡哨 </p>
-    <img src="assets/img/main.jpg">
-</div>
+<center>
+ <h1> 钟长鸿 </h1>
+     <div>
+         <span>
+             <img src="assets/phone-solid.svg" width="18px">
+             18162146140
+         </span>
+         ·
+         <span>
+             <img src="assets/envelope-solid.svg" width="18px">
+             zch774931894@gmail.com
+         </span>
+         ·
+         <span>
+             <img src="assets/Github-brands.svg" width="18px">
+             <a href="https://github.com/longredzhong">longredzhong</a>
+         </span>
+         ·
+         <span>
+             <img src="assets/rss-solid.svg" width="18px">
+             <a href="https://blog.longred.xyz">Blog</a>
+         </span>
+     </div>
+        <div style="float:right;"> <img src="assets/avatar.jpg" width="120" high="100"> </div>
+ </center>
 
 
 
-## 开始使用
 
-（1）安装 Markdown 编辑软件，推荐使用 [Typora](https://www.typora.io/) 编辑器。
+## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息
 
-（2）下载本项目，修改 [Resume.md](Resume.md) 文件即可。
+- 男，1998 年出生
+- 求职意向：算法工程师
 
-（3）将 style 文件夹下的所有的.css 复制到 Typora 的主题文件夹
+## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
-![1](assets/img/2.png)
+- 本科，天津师范大学，软件工程专业，2017.09~2021.06
 
-（4）主题文件夹可以在“文件-> 偏好设置-> 外观-> 主题文件夹“中打开。
+## <img src="assets/tools-solid.svg" width="30px"> 技能清单
 
-![2](assets/img/1.png)
+- 深度学习框架：TensorFlow/Pytorch
+- 编程语言：Python/C++/Java
+- 数据库相关：MySQL/Oracle/SQLite
+- 前端相关：Vue/Bootstrap
+- 后端相关：SpringMVC/SpringBoot/Flask
+- 版本管理、文档和自动化部署工具：Git/Docker
 
-（5）之后重启一下 Typora 编辑器，并在根据自己需求选择样式。
+## <img src="assets/honor-solid.svg" width="30px"> 荣誉
 
-- Lcry Resume Style1 Avatar：带头像的简历样式
-- Lcry Resume Style1 No Avatar：不带头像的简历样式
+- 第六届中国国际“互联网+”大学生创新创业大赛高教主赛道铜奖
 
-![3](assets/img/3.png)
+- 第十二届中国大学生计算机设计大赛天津市一等奖、全国二等奖
 
+- 第十届中国大学生服务外包创新创业大赛全国三等奖 
 
+-  第九届中国大学生服务外包创新创业大赛全国三等奖 
 
-## 文件结构
+## <img src="assets/honor-solid.svg" width="30px"> 发表论文
 
-```
-└─Simple-IT-Markdown-Resume
-    │  .gitignore                                 --git 忽略文件
-    │  README.md                                  --Readme 文件
-    │  Resume.md                                  --简历原始文件      
-    ├─assets                                      --所有静态文件夹
-    │  │  avatar.jpg               
-    │  │  briefcase-solid.svg      
-    │  │  envelope-solid.svg
-    │  │  evaluate-solid.svg
-    │  │  github-brands.svg
-    │  │  graduation-cap-solid.svg
-    │  │  honor-solid.svg
-    │  │  info-circle-solid.svg
-    │  │  info-solid.svg
-    │  │  phone-solid.svg
-    │  │  project-diagram-solid.svg
-    │  │  rss-solid.svg
-    │  │  tools-solid.svg
-    │  │  
-    │  └─img                                      --Readme 图片文件夹
-    │          1.png
-    │          2.png
-    │          3.png
-    │          main.jpg
-    │          
-    ├─result                                      --样式文件 PDF 效果图文件夹
-    │      lcry-resume-style1-avatar.pdf      
-    │      lcry-resume-style1-no-avatar.pdf
-    │      
-    └─style                                       --所有简历样式文件夹
-            lcry-resume-style1-avatar.css
-            lcry-resume-style1-no-avatar.css
-```
+- [1]刘逸琛,孙华志,马春梅,姜丽芬,钟长鸿.一种基于高层特征融合的网络商品分类[J].北京邮电大学学报,2020,43(05):98-104+117.
+- [2]Changhong Zhong,Lifen Jiang,Yan Liang,Huazhi Sun,Chunmei Ma. Temporal Multiple-convolutional Network for Commodity Classification of Online Retail Platform Data[P]. Machine Learning and Computing,2020.
 
+- [3]刘晨怡,姜丽芬,王亭,钟长鸿,梁妍.基于Xception的座位状态检测模型[J].天津师范大学学报(自然科学版),2019,39(06):62-66.
 
+## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 
-## 导出 PDF
+- **惠医慧影—肺部医学影像 AI 辅助诊断系统** （2020.06-2020.10）
+  - “互联⽹+”⼤学⽣创新创业⼤赛国家级铜奖 
+  - 针对⽬前肺部疾病的⼈⼯阅⽚存在时间⻓，精度低等问题设计的⼀款能实时获得上传肺部 X 光⽚辅助检测结果的医疗辅助系统。
+  - 主要负责目标检测模型的构建
 
-使用以下方式导出成 HTML：文件 -> 导出 -> PDF
+- **基于深度学习的主观题⾃动评阅系统研究与开发**（2020.06-2021.06）
+  - 国家级大创项目
+  - 结合中⽂⽂本语义的深度学习⽅法与教师按点评分规则开发⼀款主观题⾃动评阅系统。
+  - 主要负责模型构建和训练
+- **校园公共空间的⼈群检测系统的设计**（2019.06-2020.06）
+  - 校级大创项目
+  - 开发校园空间的⼈群检测系统，对校园公共场所监控系统采集的视频信息进⾏分析，得出⼈群密度与⼈群轨迹
+  - 作为项目负责人，负责项⽬的统筹⼯作，模型构建和调优。
 
-![4](assets/img/4.png)
+- **电商平台商品分类**（2018.11-2019.04）
+  
+  - 中国大学生服务外包创新创业大赛全国三等奖 、中国大学生计算机设计大赛全国二等奖
+  - 设计深层特征融合模型，以实现根据电商商品⽂本标题对商品进⾏准确分类。
+- 作为项目负责人，负责项⽬的统筹⼯作，模型构建和调优。
+  
+- **验证码识别系统**（2017.11-2018.04）
+  
+  - 中国大学生服务外包创新创业大赛全国三等奖
+  - 设计验证码识别模型，实现对字符型验证码和文字点选型验证码的识别。
+- 作为项目负责人，负责项⽬的统筹⼯作，模型构建和调优。
+  
+  
 
-
-
-## 导出 HTML
-
-（1）使用以下方式导出成 HTML：文件 -> 导出 -> HTML
-
-​          注意：HTML 文件必须与 assets 同级，否则部分内容显示不出来。
-
-![5](assets/img/5.png)
-
-（2）若需要使用浏览器打开导出的 HTML 文件并打印，并按“Ctrl+P”打印，需要去除页眉页脚。
-
-![6](assets/img/6.png)
-
-
-
-## 简历检查
-
-简历的制作过程考验了一个人的两个能力，逻辑能力和细节能力，而不考验设计能力。
-
-- **逻辑能力**
-
-  - 描述工作内容请遵循 [STAR 法则](https://baike.baidu.com/item/STAR%E6%B3%95%E5%88%99/9056070?fr=aladdin)
-  - 并列关系的文字请按照顺序列表写，如：
-
-  ```
-  - 熟悉 JavaScript
-  - 熟悉 Python
-  - 熟悉 Git
-  ```
-
-  - 视觉顺序：基本信息，工作相关信息，其他
-  - 简历请全部放**有用信息**
-    - 不要写星座、血型、生日、爱好等
-    - 如果有头像建议蓝底正装可适当修饰
-
-- **细节能力**
-
-  - 邮箱尽量不要用 QQ 邮箱，显得不专业
-
-  - 英文请核对正确，注意大小写，比如`GitHub`，而非`github`，以官网为准
-  - 时间建议统一格式为 yyyy.mm - yyyy.mm，比如：2018.01 - 2018.12，而非 2018.1 - 2018.12
-  - 中文始终保持一种字体，英文始终保持一种字体，字号不应该超过三种
-  - [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
-  - 简历颜色最多三种，黑色、白色、主题色
-  - 简历不要花里胡哨，清除非主流图标、进度条等附加元素
-  - 简历推荐命名：姓名 岗位 电话
-  - 了解、熟悉、精通等词汇谨慎使用，尤其是精通一词尽量不用
-  - 应届生写清楚毕业时间
-
-
-
-## 关于图标
-
-因为有些 Markdown 编辑器不支持 HTML 语法，例如 Typora，也就无法导入 fontawesome 样式表。无奈之下只能将本简历模版需要使用到的图标单独下载，放入 assets 目录下，并且在简历中以 `<img>` 标签来引用，所以导出 HTML 文件若显示不正确请保证 html 文件与 assets 在同一级目录。
-
-
-
-## License
-
-- [fontawesome](https://fontawesome.com/license)
-
-
-
-## 参考来源
-
-所有资料均参考自互联网，若侵权请联系我删除。
 
